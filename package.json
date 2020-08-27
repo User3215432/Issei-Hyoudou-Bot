@@ -1,0 +1,50 @@
+{
+  "name": "Issei-Hyoudou",
+  "version": "1.0.0",
+  "description": "A Discord Bot coded by User3215432.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "node src/nineiota.js",
+    "lint": "eslint --cache .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/User3215432/Issei-Hyoudou-Bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "bot",
+    "discord-api",
+    "nodejs",
+    "EnScapeZ"
+  ],
+  "author": "User3215432",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/User3215432/Issei-Hyoudou-Bot/issues"
+  },
+  "homepage": "https://github.com/User3215432/Issei-Hyoudou-Bot#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.6.0",
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "github:discordjs/discord.js#master",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^2.4.0",
+    "he": "^1.2.0",
+    "klasa": "github:dirigeants/klasa",
+    "libsodium-wrappers": "^0.7.4",
+    "opusscript": "0.0.6",
+    "prism-media": "^1.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "utf-8-validate": "^5.0.2",
+    "ws": "^7.2.1",
+    "ytdl-core": "^0.29.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  }
+}
